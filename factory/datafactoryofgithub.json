@@ -1,0 +1,9 @@
+{
+	"name": "datafactoryofgithub",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8dd3674a-8df0-42bc-b66f-deae1b776f4a",
+		"tenantId": "aeb37de0-bce3-4455-acc6-59c95aaea687"
+	}
+}
