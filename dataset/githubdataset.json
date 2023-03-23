@@ -1,0 +1,41 @@
+{
+	"name": "githubdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "thrinath.txt",
+				"folderPath": "inputfolder",
+				"container": "adfdemocontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "po",
+				"type": "String"
+			},
+			{
+				"name": "vendor",
+				"type": "String"
+			},
+			{
+				"name": "apple",
+				"type": "String"
+			},
+			{
+				"name": "mangoes",
+				"type": "String"
+			}
+		]
+	}
+}
